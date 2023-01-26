@@ -9,8 +9,8 @@ pipeline {
         }
         stage ('Test'){
             steps {
-                echo "Steps to trigger the test scripts will come here...."
-            }
+                echo "Steps to trigger the test scripts will come here..."
+            
         }
         stage ('Deploy'){
             steps {
