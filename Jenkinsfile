@@ -14,7 +14,7 @@ pipeline {
         }
         stage ('Deploy'){
             steps {
-                echo "Steps to deploy the tested build onto servers will come here...."
+                echo "Steps to deploy the tested build onto servers will come here..."
             }
         }
     }
